@@ -48,6 +48,8 @@ adb shell "dumpsys window | grep mCurrent"
 
 adb shell dumpsys window | findstr mCurrent
 
+使用adb shell dumpsys window | findstr mCurrentFocus  命令查看当前运行的包名和Activity更清晰一些
+
 方法2:dumpsys activity
 
 
