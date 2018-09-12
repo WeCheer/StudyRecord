@@ -1,7 +1,9 @@
-# StudyRecord
+#Android工具使用
 
 
 查看Android应用包名、Activity的几个方法
+
+
 一、只有Apk的情况
 
 （1）aapt
@@ -63,4 +65,4 @@ adb shell dumpsys activity | findstr mFocusedActivity
 1. findstr 和 grep 查找字符串说明
 findstr：windows平台查找字符串命令， 一般格式如下：
 adb shell  xxx  | findstr xxx
-grep：linux平台查找字符串命令，一般先adb shell 进入shell命令行再使用，也可直接使用，把shell 后面带grep的命令加双引号即可：
+grep：linux平台查找字符串命令，一般先adb shell 进入shell命令行再使用，也可直接使用，把shell 后面带grep的命令加双
